@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pink_linear_gradient {
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%) !important;
+}
+
+.pink_text_gradient {
+  background-clip: text;
+  background: -webkit-linear-gradient(#a02279, #a02279);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
